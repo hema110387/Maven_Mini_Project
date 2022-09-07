@@ -25,16 +25,15 @@ public class BaseClass {
 	public static WebDriver driver;
 
 	// BrowserLaunch
+	// BrowserLaunch
 	public static WebDriver browserLaunch(String name) {
 		if (name.equalsIgnoreCase("chrome")) {
-			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ganesh\\Desktop\\chromedriver2\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 
 		} else if (name.equalsIgnoreCase("firefox")) {
-			System.setProperty("webdriver.chrome.driver",
-					System.getProperty("user.dir") + "\\Driver\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Ganesh\\Desktop\\chromedriver2\\chromedriver.exe");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 		}

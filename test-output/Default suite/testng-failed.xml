@@ -3,11 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testing.features.Demo">
+      <class name="com.myntra.Myntra_Project">
         <methods>
-          <include name="login2"/>
+          <include name="browserSetUp"/>
+          <include name="get_ProductName"/>
+          <include name="getProductPrice"/>
         </methods>
-      </class> <!-- com.testing.features.Demo -->
+      </class> <!-- com.myntra.Myntra_Project -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -61,6 +61,7 @@ public class Adactin_Test_Runner extends Adactin_BaseClass {
 		String checkIn = Adactin_File_Reader_Manager.getInstanceFRM().getInstanceCR().getCheckIn();
 		inputValues(pom.getInstanceSH().getCheck_in(), checkIn);
 		
+		
 		String checkOut = Adactin_File_Reader_Manager.getInstanceFRM().getInstanceCR().getCheckOut();
 		inputValues(pom.getInstanceSH().getCheck_out(), checkOut);
 		

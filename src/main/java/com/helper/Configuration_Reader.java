@@ -9,7 +9,7 @@ public class Configuration_Reader {
 
 	public Configuration_Reader() throws Throwable {
 		File f = new File(
-				"C:\\Users\\Ganesh\\eclipse-workspace\\Maven_Project\\src\\main\\java\\com\\helper\\Configuration_Reader.java");
+				"C:\\Users\\Ganesh\\eclipse-workspace\\Maven_Project\\src\\main\\java\\com\\properties\\Configuration.properties");
 
 		FileInputStream fis = new FileInputStream(f);
 

@@ -21,7 +21,7 @@ public class Datadriven_Write {
 
 	Workbook w = new XSSFWorkbook(fis);
 	
-	Sheet createSheet = w.createSheet("Customer_Details1");
+	Sheet createSheet = w.createSheet("Customer_Details12");
 	
 	Row createRow = createSheet.createRow(0);
 	
@@ -29,13 +29,13 @@ public class Datadriven_Write {
 	
 	createCell.setCellValue("Customer Name");
 	
-	w.getSheet("Customer_Details1").getRow(0).createCell(1).setCellValue("Customer_Pno");
-	w.getSheet("Customer_Details1").createRow(1).createCell(0).setCellValue("Hema");
-	w.getSheet("Customer_Details1").getRow(1).createCell(1).setCellValue("9087654345");
-	w.getSheet("Customer_Details1").createRow(2).createCell(0).setCellValue("Saru");
-	w.getSheet("Customer_Details1").getRow(2).createCell(1).setCellValue("9085654345");
-	w.getSheet("Customer_Details1").createRow(3).createCell(0).setCellValue("Ganesh");
-	w.getSheet("Customer_Details1").getRow(3).createCell(1).setCellValue("9085654009");
+	w.getSheet("Customer_Details12").getRow(0).createCell(1).setCellValue("Customer_Pno");
+	w.getSheet("Customer_Details12").createRow(1).createCell(0).setCellValue("HemaLatha");
+	w.getSheet("Customer_Details12").getRow(1).createCell(1).setCellValue("9087654345");
+	w.getSheet("Customer_Details12").createRow(2).createCell(0).setCellValue("SaruLatha");
+	w.getSheet("Customer_Details12").getRow(2).createCell(1).setCellValue("6383869428");
+	w.getSheet("Customer_Details12").createRow(3).createCell(0).setCellValue("Ganesh");
+	w.getSheet("Customer_Details12").getRow(3).createCell(1).setCellValue("9085654009");
 	
 	FileOutputStream fos=new FileOutputStream(f);
 	
